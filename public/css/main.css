@@ -1,0 +1,26 @@
+body {
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #e0f7fa, #80deea);
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */ h1.fw-light { 
+    font-weight: 300; 
+    color: #007bff; 
+    font-size: 2.5rem; 
+    /* Larger font size for prominence */ 
+    margin-bottom: 1rem; /* Spacing below the heading */ 
+    text-transform: uppercase; /* Professional touch with uppercase text */ 
+    letter-spacing: 0.05em; /* Slight letter spacing */ 
+} /* Subheadings */ 
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: left;
+}
+

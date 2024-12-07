@@ -1,0 +1,123 @@
+
+
+
+    
+/* Lead Paragraph */
+p.lead {
+    font-family: 'Open Sans', sans-serif; /* Updated font */ 
+    font-size: 1.25rem; color: #6c757d; 
+    line-height: 1.6
+    
+}
+
+/* Button */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Section */
+section.py-5 {
+    padding: 2rem;
+}
+
+/* Container */
+.container {
+    padding: 2rem;
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #28505a; /* Pale Lavender */
+    display: flex; 
+    flex-direction: column;
+    height: 100%;
+}
+.card h2 {
+    font-size: 1.5rem;
+    color: #343a40;
+    margin: 15px;
+    text-align: center;
+    word-wrap: break-word;
+}
+.card p {
+    font-size: 1rem;
+    color: #495057;
+    margin: 0;
+    padding: 15px;
+    flex-grow: 1;
+    text-align: center;
+    word-wrap: break-word;
+}
+.card .buttons {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin-top: auto;
+}
+.card .buttons button {
+    margin: 0 5px;
+}
+.card .time {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.row > .col {
+     display: flex; 
+    } 
+.row > .col > .card { 
+    flex: 1;
+ }
+
+/* Album Section */
+.album {
+    padding: 3rem 0;
+}
+
+.album .card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+    background-color: #e6e6fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.album .card:hover {
+    transform: translateY(-5px);
+}
+
+.album .card-body {
+    padding: 1rem;
+}
+
+.album .card-text {
+    color: #495057;
+}
+
+.btn-outline-secondary {
+    color: #649dd0;
+    border-color: #517798;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-secondary:hover {
+    color: #000000;
+    background-color: #0e7ee0;
+    border-color: #2983d2;
+}
+
+.text-body-secondary {
+    color: #2a464d !important;
+}
